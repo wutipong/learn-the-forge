@@ -1,0 +1,1658 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common_3\OS\Camera">
+      <UniqueIdentifier>{9bacfcce-c474-4aed-bed9-75313c018ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS">
+      <UniqueIdentifier>{2397fcf7-c10d-493f-88c3-d78d1e8155cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3">
+      <UniqueIdentifier>{50c4a69b-22e4-4f49-9b90-9cd38dfa52b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\Core">
+      <UniqueIdentifier>{2b5d7d81-2560-47b9-b87c-84f4a9d68f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\FileSystem">
+      <UniqueIdentifier>{505d9e15-90ff-4870-9b2b-da8b21d24f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\Fonts">
+      <UniqueIdentifier>{fdbaebba-7bb3-45bf-bf61-cf65f3900361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\Input">
+      <UniqueIdentifier>{693c6a53-2654-45cd-a5d3-d8d3e78a3391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\Logging">
+      <UniqueIdentifier>{ecbf4525-f248-405a-9b22-b8b5ed146a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\MemoryTracking">
+      <UniqueIdentifier>{a8497f8d-f0dc-4cf9-8c77-a277f8bd11bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\Profiler">
+      <UniqueIdentifier>{89df0bad-6eca-47b4-928f-1ce3b0819665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\Scripting">
+      <UniqueIdentifier>{82dd9948-2625-4614-8a2d-1595e59d294b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\UI">
+      <UniqueIdentifier>{f1ee5b14-53ed-4432-8bbf-5d38c8ecb35f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\Windows">
+      <UniqueIdentifier>{782c3288-a6eb-48a1-9674-7be34c8b57f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\basis_universal\transcoder">
+      <UniqueIdentifier>{188331a9-8ffe-4265-ae22-09446d516214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\basis_universal">
+      <UniqueIdentifier>{8647c0e6-fb75-4e8f-b0cf-73bb470a3eb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource">
+      <UniqueIdentifier>{172c2233-e8fd-4ecb-a4d4-49d2bdb269f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty">
+      <UniqueIdentifier>{9896df89-c81c-4097-84ca-38b6b88d66fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\lua-5.3.5\src">
+      <UniqueIdentifier>{1a8ef0fe-b679-4362-a268-48ed8595e6d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\lua-5.3.5">
+      <UniqueIdentifier>{06e3114f-ca45-476d-a8ae-ccfc1e7efc06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\EASTL">
+      <UniqueIdentifier>{ff8173cb-98da-4cd6-a6d4-5d52c33821c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\EASTL\EAStdC">
+      <UniqueIdentifier>{b0d0fa0d-a99c-460f-a3be-6323081baaaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput">
+      <UniqueIdentifier>{64be429b-e2b9-431e-8126-6c07515fd769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput\lib\source">
+      <UniqueIdentifier>{8f9726e5-06be-406a-97bb-32a403d522d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput\lib">
+      <UniqueIdentifier>{0599bb02-4ed6-4750-b465-400c8d1aa171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput">
+      <UniqueIdentifier>{eb74be5f-10eb-4ace-8122-40588acfc72d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\builtin">
+      <UniqueIdentifier>{7fedb3dd-0ba7-46da-ae29-9078aa432636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev">
+      <UniqueIdentifier>{38c5e27c-ddc0-4d99-af16-bd2fde2f241a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gestures">
+      <UniqueIdentifier>{244326c8-ea0c-4365-937c-5e73402628a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard">
+      <UniqueIdentifier>{982c9637-11ba-4a15-9a83-c905cb7799ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse">
+      <UniqueIdentifier>{ae1a82a4-a9f0-4452-ab7b-2b10d53785be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad">
+      <UniqueIdentifier>{050add4f-f469-4159-9770-21e99d2b011f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\recorder">
+      <UniqueIdentifier>{3a6083ee-afc6-4980-87cc-03e5371aa7b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\touch">
+      <UniqueIdentifier>{f18dc722-23fd-4023-8689-2d7c565d7945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\imgui">
+      <UniqueIdentifier>{9b7f26d8-1c1f-42e6-8901-92221d881629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Renderer">
+      <UniqueIdentifier>{a939f836-a852-422f-a4d9-6560ab82d9cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Renderer\Direct3D11">
+      <UniqueIdentifier>{6d11e0d8-956e-46e7-831f-e2c215e190ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Renderer\Direct3D12">
+      <UniqueIdentifier>{0c744ad7-4acd-4c60-9951-9782daccb21d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Renderer\Vulkan">
+      <UniqueIdentifier>{c07343fe-f837-448d-a86f-97d4b73e9b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Tools\SpirvTools">
+      <UniqueIdentifier>{7c7cfd82-d65c-445e-b248-81000cb02094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\Tools">
+      <UniqueIdentifier>{755e6610-04b8-4f92-bb32-77c39efc6cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Middleware_3\Animation">
+      <UniqueIdentifier>{ca47a528-0a26-4fbb-b93b-15fb79ede3ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Middleware_3">
+      <UniqueIdentifier>{74162d67-c6cc-4e1a-b963-1a9da36db254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Middleware_3\ECS">
+      <UniqueIdentifier>{c0659ec1-fa86-4134-85dc-a0a02d761eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Middleware_3\PaniniProjection">
+      <UniqueIdentifier>{9d0c178b-5ef6-494e-bb28-18a5fb25c613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Middleware_3\ParallelPrimitives">
+      <UniqueIdentifier>{db07a302-4737-49d5-935a-92988a3346d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\SPIRV_Cross">
+      <UniqueIdentifier>{84427136-d5d1-4a3d-b9e1-fa1dfe5db82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\Fonts\Shaders\FSL">
+      <UniqueIdentifier>{018a048c-d99c-4f8b-a2e1-a7a03395ac32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\Fonts\Shaders">
+      <UniqueIdentifier>{9f2d4975-4fde-4928-af10-7c126442af90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\Fonts\Shaders\FSL\Quest">
+      <UniqueIdentifier>{f856fb9a-b4b5-43d2-bef9-f19614cc1305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\Interfaces">
+      <UniqueIdentifier>{a2273675-a51f-4055-a79a-f6463c6afa0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\OS\Math">
+      <UniqueIdentifier>{03ba965a-e00e-4bcc-8e91-3d77fb342465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\EASTL\bonus">
+      <UniqueIdentifier>{754200e7-9037-4189-9187-98032fb9d778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\EASTL\EAAssert">
+      <UniqueIdentifier>{6bedb7cd-5658-4705-9029-5e907b2d39f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\EASTL\EABase">
+      <UniqueIdentifier>{85893498-366d-43c7-b904-5feddf83bd6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\EASTL\EABase\config">
+      <UniqueIdentifier>{b9073a40-0484-4082-9104-a7af7c481769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\EASTL\internal">
+      <UniqueIdentifier>{5d3aa814-356f-415c-b619-c7a516edcf5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput">
+      <UniqueIdentifier>{de2fb9b5-9988-4d5f-9848-d33f98a5d3dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput\lib\include">
+      <UniqueIdentifier>{60957f7a-36b8-4f13-b248-f2ce247b1968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures">
+      <UniqueIdentifier>{97186486-287b-4310-8826-817d21acae6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\recorder">
+      <UniqueIdentifier>{36d09145-6d3c-4f5a-9194-ae247b1882eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common_3\ThirdParty\OpenSource\lua-5.3.5\doc">
+      <UniqueIdentifier>{814f9237-ad37-4715-8635-cd6b22b82de0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\the-forge\Common_3\OS\Camera\CameraController.cpp">
+      <Filter>Common_3\OS\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Core\Screenshot.cpp">
+      <Filter>Common_3\OS\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Core\ThreadSystem.cpp">
+      <Filter>Common_3\OS\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Core\Timer.c">
+      <Filter>Common_3\OS\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\FileSystem\FileSystem.cpp">
+      <Filter>Common_3\OS\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\FileSystem\SystemRun.cpp">
+      <Filter>Common_3\OS\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\FileSystem\ZipFileSystem.c">
+      <Filter>Common_3\OS\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Fonts\FontSystem.cpp">
+      <Filter>Common_3\OS\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Input\InputSystem.cpp">
+      <Filter>Common_3\OS\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Logging\Log.c">
+      <Filter>Common_3\OS\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\MemoryTracking\MemoryTracking.c">
+      <Filter>Common_3\OS\MemoryTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Profiler\GpuProfiler.cpp">
+      <Filter>Common_3\OS\Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Profiler\ProfilerBase.cpp">
+      <Filter>Common_3\OS\Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Scripting\LuaManager.cpp">
+      <Filter>Common_3\OS\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Scripting\LuaManagerImpl.cpp">
+      <Filter>Common_3\OS\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Scripting\LuaSystem.cpp">
+      <Filter>Common_3\OS\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\UI\imgui_user.cpp">
+      <Filter>Common_3\OS\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\UI\UI.cpp">
+      <Filter>Common_3\OS\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Windows\WindowsBase.cpp">
+      <Filter>Common_3\OS\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Windows\WindowsFileSystem.cpp">
+      <Filter>Common_3\OS\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Windows\WindowsLog.c">
+      <Filter>Common_3\OS\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Windows\WindowsStackTraceDump.cpp">
+      <Filter>Common_3\OS\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Windows\WindowsThread.c">
+      <Filter>Common_3\OS\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\OS\Windows\WindowsTime.c">
+      <Filter>Common_3\OS\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_transcoder.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lapi.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lauxlib.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lbaselib.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lbitlib.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lcode.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lcorolib.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lctype.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\ldblib.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\ldebug.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\ldo.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\ldump.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lfunc.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lgc.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\linit.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\liolib.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\llex.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lmathlib.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lmem.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\loadlib.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lobject.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lopcodes.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\loslib.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lparser.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lstate.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lstring.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lstrlib.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\ltable.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\ltablib.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\ltm.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lua.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\luac.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lundump.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lutf8lib.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lvm.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lzio.c">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\allocator_eastl.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\allocator_forge.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\assert.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\fixed_pool.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\hashtable.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\intrusive_list.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\numeric_limits.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\red_black_tree.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\string.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\thread_support.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EAStdC\EAMemory.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EAStdC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EAStdC\EASprintf.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EAStdC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gainput.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\GainputAllocator.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\GainputInputDeltaState.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\GainputInputDevice.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\GainputInputManager.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\GainputInputMap.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\GainputInputState.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\GainputMapFilters.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\builtin\GainputInputDeviceBuiltIn.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\builtin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev\GainputDev.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev\GainputMemoryStream.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev\GainputNetAddress.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev\GainputNetConnection.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev\GainputNetListener.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gestures\GainputButtonStickGesture.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gestures\GainputDoubleClickGesture.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gestures\GainputHoldGesture.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gestures\GainputPinchGesture.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gestures\GainputRotateGesture.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gestures\GainputSimultaneouslyDownGesture.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gestures\GainputTapGesture.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\gestures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard\GainputInputDeviceKeyboard.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard\GainputInputDeviceKeyboardMac.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse\GainputInputDeviceMouse.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad\GainputInputDevicePad.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad\GainputInputDevicePadMac.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\recorder\GainputInputPlayer.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\recorder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\recorder\GainputInputRecorder.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\recorder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\recorder\GainputInputRecording.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\recorder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\touch\GainputInputDeviceTouch.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\touch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\imgui\imgui.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\imgui\imgui_demo.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\imgui\imgui_draw.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\imgui\imgui_widgets.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\Renderer\CommonShaderReflection.cpp">
+      <Filter>Common_3\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\Renderer\Renderer.cpp">
+      <Filter>Common_3\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\Renderer\ResourceLoader.cpp">
+      <Filter>Common_3\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\Renderer\Direct3D11\Direct3D11.cpp">
+      <Filter>Common_3\Renderer\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\Renderer\Direct3D11\Direct3D11Raytracing.cpp">
+      <Filter>Common_3\Renderer\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\Renderer\Direct3D11\Direct3D11ShaderReflection.cpp">
+      <Filter>Common_3\Renderer\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\Renderer\Direct3D12\Direct3D12.cpp">
+      <Filter>Common_3\Renderer\Direct3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\Renderer\Direct3D12\Direct3D12Hooks.cpp">
+      <Filter>Common_3\Renderer\Direct3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\Renderer\Direct3D12\Direct3D12Raytracing.cpp">
+      <Filter>Common_3\Renderer\Direct3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\Renderer\Direct3D12\Direct3D12ShaderReflection.cpp">
+      <Filter>Common_3\Renderer\Direct3D12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\Renderer\Vulkan\Vulkan.cpp">
+      <Filter>Common_3\Renderer\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\Renderer\Vulkan\VulkanRaytracing.cpp">
+      <Filter>Common_3\Renderer\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\Renderer\Vulkan\VulkanShaderReflection.cpp">
+      <Filter>Common_3\Renderer\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\Tools\SpirvTools\SpirvTools.cpp">
+      <Filter>Common_3\Tools\SpirvTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Middleware_3\Animation\AnimatedObject.cpp">
+      <Filter>Middleware_3\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Middleware_3\Animation\Animation.cpp">
+      <Filter>Middleware_3\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Middleware_3\Animation\Clip.cpp">
+      <Filter>Middleware_3\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Middleware_3\Animation\ClipController.cpp">
+      <Filter>Middleware_3\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Middleware_3\Animation\ClipMask.cpp">
+      <Filter>Middleware_3\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Middleware_3\Animation\Rig.cpp">
+      <Filter>Middleware_3\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Middleware_3\Animation\SkeletonBatcher.cpp">
+      <Filter>Middleware_3\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Middleware_3\ECS\BaseComponent.cpp">
+      <Filter>Middleware_3\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Middleware_3\ECS\ComponentRepresentation.cpp">
+      <Filter>Middleware_3\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Middleware_3\ECS\EntityManager.cpp">
+      <Filter>Middleware_3\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Middleware_3\PaniniProjection\Panini.cpp">
+      <Filter>Middleware_3\PaniniProjection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Middleware_3\ParallelPrimitives\ParallelPrimitives.cpp">
+      <Filter>Middleware_3\ParallelPrimitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_cfg.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_cpp.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_cross.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_cross_parsed_ir.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_cross_util.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_glsl.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_hlsl.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_msl.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_parser.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_reflect.cpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\the-forge\Common_3\OS\Core\Atomics.h">
+      <Filter>Common_3\OS\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Core\Config.h">
+      <Filter>Common_3\OS\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Core\DLL.h">
+      <Filter>Common_3\OS\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Core\GPUConfig.h">
+      <Filter>Common_3\OS\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Core\RingBuffer.h">
+      <Filter>Common_3\OS\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Core\TextureContainers.h">
+      <Filter>Common_3\OS\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Core\ThreadSystem.h">
+      <Filter>Common_3\OS\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Core\UnixThreadID.h">
+      <Filter>Common_3\OS\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Fonts\Shaders\FSL\resources.h">
+      <Filter>Common_3\OS\Fonts\Shaders\FSL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Fonts\Shaders\FSL\Quest\resources.h">
+      <Filter>Common_3\OS\Fonts\Shaders\FSL\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Logging\Log.h">
+      <Filter>Common_3\OS\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\MemoryTracking\NoMemoryDefines.h">
+      <Filter>Common_3\OS\MemoryTracking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Profiler\GpuProfiler.h">
+      <Filter>Common_3\OS\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Profiler\ProfilerBase.h">
+      <Filter>Common_3\OS\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Profiler\ProfilerHTML.h">
+      <Filter>Common_3\OS\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Scripting\LuaManager.h">
+      <Filter>Common_3\OS\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Scripting\LuaManagerCommon.h">
+      <Filter>Common_3\OS\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Scripting\LuaManagerImpl.h">
+      <Filter>Common_3\OS\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Scripting\LunaV.hpp">
+      <Filter>Common_3\OS\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\UI\imgui_user.h">
+      <Filter>Common_3\OS\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Windows\WindowsStackTraceDump.h">
+      <Filter>Common_3\OS\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Interfaces\IApp.h">
+      <Filter>Common_3\OS\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Interfaces\ICameraController.h">
+      <Filter>Common_3\OS\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Interfaces\IFileSystem.h">
+      <Filter>Common_3\OS\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Interfaces\IFont.h">
+      <Filter>Common_3\OS\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Interfaces\IInput.h">
+      <Filter>Common_3\OS\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Interfaces\ILog.h">
+      <Filter>Common_3\OS\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Interfaces\IMemory.h">
+      <Filter>Common_3\OS\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Interfaces\IMiddleware.h">
+      <Filter>Common_3\OS\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Interfaces\IOperatingSystem.h">
+      <Filter>Common_3\OS\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Interfaces\IProfiler.h">
+      <Filter>Common_3\OS\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Interfaces\IScreenshot.h">
+      <Filter>Common_3\OS\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Interfaces\IScripting.h">
+      <Filter>Common_3\OS\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Interfaces\IThread.h">
+      <Filter>Common_3\OS\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Interfaces\ITime.h">
+      <Filter>Common_3\OS\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Interfaces\IUI.h">
+      <Filter>Common_3\OS\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\OS\Math\MathTypes.h">
+      <Filter>Common_3\OS\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu.h">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_file_headers.h">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_global_selector_cb.h">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_global_selector_palette.h">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_transcoder.h">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_transcoder_internal.h">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lapi.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lauxlib.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lcode.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lctype.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\ldebug.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\ldo.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lfunc.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lgc.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\llex.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\llimits.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lmem.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lobject.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lopcodes.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lparser.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lprefix.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lstate.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lstring.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\ltable.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\ltm.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lua.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lua.hpp">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\luaconf.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lualib.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lundump.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lvm.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\src\lzio.h">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\algorithm.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\allocator.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\allocator_forge.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\allocator_malloc.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\any.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\array.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\bitset.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\bitvector.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\chrono.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\core_allocator.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\core_allocator_adapter.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\deque.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\fixed_allocator.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\fixed_function.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\fixed_hash_map.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\fixed_hash_set.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\fixed_list.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\fixed_map.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\fixed_set.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\fixed_slist.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\fixed_string.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\fixed_substring.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\fixed_vector.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\functional.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\hash_map.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\hash_set.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\heap.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\initializer_list.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\intrusive_hash_map.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\intrusive_hash_set.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\intrusive_list.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\intrusive_ptr.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\iterator.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\linked_array.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\linked_ptr.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\list.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\map.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\memory.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\meta.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\numeric.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\numeric_limits.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\optional.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\priority_queue.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\queue.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\random.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\ratio.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\safe_ptr.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\scoped_array.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\scoped_ptr.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\segmented_vector.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\set.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\shared_array.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\shared_ptr.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\slist.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\sort.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\span.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\stack.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\string.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\string_hash_map.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\string_map.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\string_view.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\tuple.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\type_traits.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\unique_ptr.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\unordered_map.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\unordered_set.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\utility.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\variant.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\vector.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\vector_map.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\vector_multimap.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\vector_multiset.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\vector_set.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\version.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\weak_ptr.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EAStdC\EAAlignment.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EAStdC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EAStdC\EADateTime.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EAStdC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EAStdC\EAMemory.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EAStdC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EAStdC\EAProcess.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EAStdC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EAStdC\EASprintf.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EAStdC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EAStdC\EAStopwatch.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EAStdC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EAStdC\EAString.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EAStdC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EAStdC\EATextUtil.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EAStdC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\bonus\adaptors.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\bonus\call_traits.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\bonus\compressed_pair.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\bonus\fixed_ring_buffer.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\bonus\fixed_tuple_vector.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\bonus\intrusive_sdlist.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\bonus\intrusive_slist.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\bonus\list_map.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\bonus\lru_cache.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\bonus\ring_buffer.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\bonus\sort_extra.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\bonus\sparse_matrix.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\bonus\tuple_vector.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EAAssert\eaassert.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EAAssert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EABase\eabase.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EABase\eahave.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EABase\earesult.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EABase\eastdarg.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EABase\eaunits.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EABase\int128.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EABase\nullptr.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EABase\version.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EABase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EABase\config\eacompiler.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EABase\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EABase\config\eacompilertraits.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EABase\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\EABase\config\eaplatform.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\EABase\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\allocator_traits.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\allocator_traits_fwd_decls.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\char_traits.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\config.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\copy_help.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\enable_shared.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\fill_help.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\fixed_pool.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\function.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\functional_base.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\function_detail.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\function_help.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\generic_iterator.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\hashtable.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\integer_sequence.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\intrusive_hashtable.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\in_place_t.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\memory_base.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\mem_fn.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\meta.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\move_help.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\pair_fwd_decls.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\piecewise_construct_t.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\red_black_tree.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\smart_ptr.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\thread_support.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\tuple_fwd_decls.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\type_compound.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\type_fundamental.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\type_pod.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\type_properties.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\EASTL\internal\type_transformations.h">
+      <Filter>Common_3\ThirdParty\OpenSource\EASTL\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\GainputHelpersEvdev.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\GainputWindows.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\builtin\GainputInputDeviceBuiltInAndroid.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\builtin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\builtin\GainputInputDeviceBuiltInImpl.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\builtin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\builtin\GainputInputDeviceBuiltInIos.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\builtin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\builtin\GainputInputDeviceBuiltInNull.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\builtin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev\GainputDev.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev\GainputDevProtocol.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev\GainputMemoryStream.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev\GainputNetAddress.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev\GainputNetConnection.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev\GainputNetListener.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev\GainputStream.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\dev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard\GainputInputDeviceKeyboardAndroid.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard\GainputInputDeviceKeyboardEvdev.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard\GainputInputDeviceKeyboardImpl.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard\GainputInputDeviceKeyboardIOS.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard\GainputInputDeviceKeyboardLinux.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard\GainputInputDeviceKeyboardMac.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard\GainputInputDeviceKeyboardNull.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard\GainputInputDeviceKeyboardWin.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard\GainputInputDeviceKeyboardWinRaw.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard\GainputKeyboardKeyNames.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse\GainputInputDeviceMouseEvdev.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse\GainputInputDeviceMouseImpl.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse\GainputInputDeviceMouseLinux.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse\GainputInputDeviceMouseLinuxRaw.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse\GainputInputDeviceMouseMac.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse\GainputInputDeviceMouseMacRaw.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse\GainputInputDeviceMouseNull.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse\GainputInputDeviceMouseWin.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse\GainputInputDeviceMouseWinRaw.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse\GainputMouseInfo.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad\GainputControllerDb.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad\GainputInputDevicePadAndroid.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad\GainputInputDevicePadImpl.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad\GainputInputDevicePadIos.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad\GainputInputDevicePadLinux.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad\GainputInputDevicePadMac.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad\GainputInputDevicePadNull.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad\GainputInputDevicePadWin.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad\GainputInputDevicePadWinDirectInput.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\pad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\touch\GainputInputDeviceTouchAndroid.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\touch\GainputInputDeviceTouchImpl.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\touch\GainputInputDeviceTouchIos.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\touch\GainputInputDeviceTouchNull.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\touch\GainputTouchInfo.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\source\gainput\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gainput.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputAllocator.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputContainers.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputDebugRenderer.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputHelpers.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputInputDeltaState.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputInputDevice.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputInputDeviceBuiltIn.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputInputDeviceKeyboard.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputInputDeviceMouse.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputInputDevicePad.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputInputDeviceTouch.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputInputListener.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputInputManager.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputInputMap.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputInputState.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputIos.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputLog.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputMac.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\GainputMapFilters.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures\GainputButtonStickGesture.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures\GainputDoubleClickGesture.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures\GainputGestures.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures\GainputHoldGesture.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures\GainputPinchGesture.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures\GainputRotateGesture.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures\GainputSimultaneouslyDownGesture.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures\GainputTapGesture.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\gestures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\recorder\GainputInputPlayer.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\recorder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\recorder\GainputInputRecorder.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\recorder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\recorder\GainputInputRecording.h">
+      <Filter>Common_3\ThirdParty\OpenSource\gainput\lib\include\gainput\recorder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\imgui\imconfig.h">
+      <Filter>Common_3\ThirdParty\OpenSource\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\imgui\imgui.h">
+      <Filter>Common_3\ThirdParty\OpenSource\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\imgui\imgui_internal.h">
+      <Filter>Common_3\ThirdParty\OpenSource\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\Renderer\IRay.h">
+      <Filter>Common_3\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\Renderer\IRenderer.h">
+      <Filter>Common_3\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\Renderer\IResourceLoader.h">
+      <Filter>Common_3\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\Renderer\IShaderReflection.h">
+      <Filter>Common_3\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\Renderer\RendererConfig.h">
+      <Filter>Common_3\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\Renderer\Direct3D11\Direct3D11CapBuilder.h">
+      <Filter>Common_3\Renderer\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\Renderer\Direct3D11\Direct3D11Commands.h">
+      <Filter>Common_3\Renderer\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\Renderer\Direct3D11\Direct3D11Config.h">
+      <Filter>Common_3\Renderer\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\Renderer\Direct3D12\Direct3D12CapBuilder.h">
+      <Filter>Common_3\Renderer\Direct3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\Renderer\Direct3D12\Direct3D12Config.h">
+      <Filter>Common_3\Renderer\Direct3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\Renderer\Direct3D12\Direct3D12Hooks.h">
+      <Filter>Common_3\Renderer\Direct3D12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\Renderer\Vulkan\VulkanCapsBuilder.h">
+      <Filter>Common_3\Renderer\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\Renderer\Vulkan\VulkanConfig.h">
+      <Filter>Common_3\Renderer\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\Tools\SpirvTools\SpirvTools.h">
+      <Filter>Common_3\Tools\SpirvTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Middleware_3\Animation\AnimatedObject.h">
+      <Filter>Middleware_3\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Middleware_3\Animation\Animation.h">
+      <Filter>Middleware_3\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Middleware_3\Animation\Clip.h">
+      <Filter>Middleware_3\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Middleware_3\Animation\ClipController.h">
+      <Filter>Middleware_3\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Middleware_3\Animation\ClipMask.h">
+      <Filter>Middleware_3\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Middleware_3\Animation\Rig.h">
+      <Filter>Middleware_3\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Middleware_3\Animation\SkeletonBatcher.h">
+      <Filter>Middleware_3\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Middleware_3\ECS\BaseComponent.h">
+      <Filter>Middleware_3\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Middleware_3\ECS\ComponentRepresentation.h">
+      <Filter>Middleware_3\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Middleware_3\ECS\EntityManager.h">
+      <Filter>Middleware_3\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Middleware_3\PaniniProjection\Panini.h">
+      <Filter>Middleware_3\PaniniProjection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Middleware_3\ParallelPrimitives\ParallelPrimitives.h">
+      <Filter>Middleware_3\ParallelPrimitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\GLSL.std.450.h">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv.h">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv.hpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_cfg.hpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_common.hpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_cpp.hpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_cross.hpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_cross_containers.hpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_cross_error_handling.hpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_cross_parsed_ir.hpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_cross_util.hpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_glsl.hpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_hlsl.hpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_msl.hpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_parser.hpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\the-forge\Common_3\ThirdParty\OpenSource\SPIRV_Cross\spirv_reflect.hpp">
+      <Filter>Common_3\ThirdParty\OpenSource\SPIRV_Cross</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_transcoder_tables_astc.inc">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </None>
+    <None Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_transcoder_tables_astc_0_255.inc">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </None>
+    <None Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_transcoder_tables_atc_55.inc">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </None>
+    <None Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_transcoder_tables_atc_56.inc">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </None>
+    <None Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_transcoder_tables_bc7_m5_alpha.inc">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </None>
+    <None Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_transcoder_tables_bc7_m5_color.inc">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </None>
+    <None Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_transcoder_tables_bc7_m6.inc">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </None>
+    <None Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_transcoder_tables_dxt1_5.inc">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </None>
+    <None Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_transcoder_tables_dxt1_6.inc">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </None>
+    <None Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_transcoder_tables_pvrtc2_45.inc">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </None>
+    <None Include="..\the-forge\Common_3\ThirdParty\OpenSource\basis_universal\transcoder\basisu_transcoder_tables_pvrtc2_alpha_33.inc">
+      <Filter>Common_3\ThirdParty\OpenSource\basis_universal\transcoder</Filter>
+    </None>
+    <None Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\doc\contents.html">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\doc</Filter>
+    </None>
+    <None Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\doc\manual.html">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\doc</Filter>
+    </None>
+    <None Include="..\the-forge\Common_3\ThirdParty\OpenSource\lua-5.3.5\doc\readme.html">
+      <Filter>Common_3\ThirdParty\OpenSource\lua-5.3.5\doc</Filter>
+    </None>
+  </ItemGroup>
+</Project>
