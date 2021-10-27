@@ -1,7 +1,7 @@
 #include "MainApp.h"
 
-#include "TestScene.h"
 #include "Scene.h"
+#include "Scene01Colors.h"
 #include <Common_3/OS/Interfaces/IFileSystem.h>
 #include <Common_3/OS/Interfaces/IFont.h>
 #include <Common_3/OS/Interfaces/IInput.h>
@@ -93,7 +93,7 @@ auto Init(IApp *app) -> bool {
     auto &&pWindow = AppInstance()->pWindow;
 
     // currentScene = NopScene::Create();
-    currentScene = TestScene::Create();
+    currentScene = Scene01Colors::Create();
 
     // FILE PATHS
     fsSetPathForResourceDir(pSystemFileIO, RM_CONTENT, RD_SHADER_SOURCES, "Shaders");

@@ -1,0 +1,23 @@
+CBUFFER(uniformBlock, UPDATE_FREQ_PER_FRAME, b0, binding = 0)
+{
+	DATA(float4x4, model, None);
+	DATA(float4x4, view, None);
+    DATA(float4x4, projection, None);
+    DATA(float3, objectColor, None);
+    DATA(float3, lightColor, None);
+};
+
+STRUCT(PsIn)
+{
+	DATA(float4, position, SV_Position);
+};
+
+float4 PS_MAIN( PsIn In )
+{
+	INIT_MAIN;
+	float4 Out;
+	
+    Out = float4(lightColor * objectColor, 1.0);
+    
+	RETURN(Out);
+}

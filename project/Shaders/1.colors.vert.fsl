@@ -1,0 +1,29 @@
+STRUCT(VsIn)
+{
+	DATA(float3, aPos, Position);
+	DATA(float3, aNormal, Normal);
+};
+
+STRUCT(VsOut)
+{
+	DATA(float4, position, SV_Position);
+};
+
+CBUFFER(uniformBlock, UPDATE_FREQ_PER_FRAME, b0, binding = 0)
+{
+	DATA(float4x4, model, None);
+	DATA(float4x4, view, None);
+    DATA(float4x4, projection, None);
+    DATA(float3, objectColor, None);
+    DATA(float3, lightColor, None);
+};
+
+VsOut VS_MAIN( VsIn In )
+{
+	INIT_MAIN;
+	VsOut Out;
+
+	Out.position = mul(projection, mul(view, mul(model, float4(In.aPos, 1.0))));
+
+	RETURN(Out);
+}

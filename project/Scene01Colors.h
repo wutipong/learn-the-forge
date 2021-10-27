@@ -4,7 +4,7 @@
 
 #include "MainApp.h"
 
-namespace TestScene {
+namespace Scene01Colors {
 Scene Create();
 
 void Update(float deltaTime);
