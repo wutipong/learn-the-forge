@@ -9,7 +9,7 @@ Scene Create();
 
 void Update(float deltaTime);
 void Draw(Cmd *cmd, int imageIndex);
-auto Load(Renderer *pRenderer, SwapChain *pSwapChain) -> bool;
+auto Load(Renderer *pRenderer, SwapChain *pSwapChain, RenderTarget *pDepthBuffer) -> bool;
 void Unload(Renderer *pRenderer);
 void DrawUI();
 void Init(Renderer *pRenderer);

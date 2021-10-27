@@ -280,7 +280,7 @@ auto Load() -> bool {
 
     waitForAllResourceLoads();
 
-    currentScene.Load(pRenderer, pSwapChain);
+    currentScene.Load(pRenderer, pSwapChain, pDepthBuffer);
 
     waitForAllResourceLoads();
 

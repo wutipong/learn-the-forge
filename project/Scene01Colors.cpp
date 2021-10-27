@@ -57,12 +57,12 @@ Scene Scene01Colors::Create() {
     return out;
 }
 
-static bool onCameraInput(InputActionContext *ctx) {
+static bool onCameraInput(InputActionContext *ctx, InputBindings::Binding binding) {
     if (uiIsFocused() || !(*ctx->pCaptured)) {
         return true;
     }
 
-    switch (ctx->mBinding) {
+    switch (binding) {
     case InputBindings::FLOAT_LEFTSTICK:
         pCameraController->onMove(ctx->mFloat2);
         break;
@@ -130,17 +130,29 @@ void Scene01Colors::Init(Renderer *pRenderer) {
     pCameraController->setMotionParameters(cmp);
 
     {
-        InputActionDesc actionDesc = {InputBindings::FLOAT_RIGHTSTICK, onCameraInput, NULL, 20.0f, 200.0f, 0.5f};
+        InputActionDesc actionDesc = {
+            InputBindings::FLOAT_RIGHTSTICK,
+            [](InputActionContext *ctx) { return onCameraInput(ctx, InputBindings::FLOAT_RIGHTSTICK); },
+            NULL,
+            2.0f,
+            20.0f,
+            0.05f};
         addInputAction(&actionDesc);
     }
     {
-        InputActionDesc actionDesc = {InputBindings::FLOAT_LEFTSTICK, onCameraInput, NULL, 20.0f, 200.0f, 1.0f};
+        InputActionDesc actionDesc = {
+            InputBindings::FLOAT_LEFTSTICK,
+            [](InputActionContext *ctx) { return onCameraInput(ctx, InputBindings::FLOAT_LEFTSTICK); },
+            NULL,
+            2.0f,
+            20.0f,
+            0.1f};
         addInputAction(&actionDesc);
     }
     {
         InputActionDesc actionDesc = {
             InputBindings::BUTTON_NORTH,
-            onCameraInput,
+            [](InputActionContext *ctx) { return onCameraInput(ctx, InputBindings::BUTTON_NORTH); },
         };
         addInputAction(&actionDesc);
     }
@@ -162,7 +174,7 @@ void Scene01Colors::Draw(Cmd *cmd, int imageIndex) {
     const float aspectInverse = (float)AppInstance()->mSettings.mHeight / (float)AppInstance()->mSettings.mWidth;
     const float horizontal_fov = PI / 2.0f;
     mat4 projMat = mat4::perspective(horizontal_fov, aspectInverse, 1000.0f, 0.1f);
-    
+
     {
         UniformBlock uniform;
         uniform.model = mat4::identity();
@@ -209,7 +221,7 @@ void Scene01Colors::Draw(Cmd *cmd, int imageIndex) {
 
 void Scene01Colors::DrawUI() {}
 
-bool Scene01Colors::Load(Renderer *pRenderer, SwapChain *pSwapChain) {
+bool Scene01Colors::Load(Renderer *pRenderer, SwapChain *pSwapChain, RenderTarget *pDepthBuffer) {
     {
         BufferLoadDesc ubDesc = {};
         ubDesc.mDesc.mDescriptors = DESCRIPTOR_TYPE_UNIFORM_BUFFER;
@@ -251,7 +263,6 @@ bool Scene01Colors::Load(Renderer *pRenderer, SwapChain *pSwapChain) {
         updateDescriptorSet(pRenderer, i, pLightUniformsDS, 1, &params);
     }
 
-
     {
         RasterizerStateDesc rasterizerStateDesc = {};
         rasterizerStateDesc.mCullMode = CULL_MODE_FRONT;
@@ -292,11 +303,12 @@ bool Scene01Colors::Load(Renderer *pRenderer, SwapChain *pSwapChain) {
         GraphicsPipelineDesc &pipelineSettings = desc.mGraphicsDesc;
         pipelineSettings.mPrimitiveTopo = PRIMITIVE_TOPO_TRI_LIST;
         pipelineSettings.mRenderTargetCount = 1;
-        pipelineSettings.pDepthState = NULL;
+        pipelineSettings.pDepthState = &depthStateDesc;
         pipelineSettings.pBlendState = &blendStateAlphaDesc;
         pipelineSettings.pColorFormats = &pSwapChain->ppRenderTargets[0]->mFormat;
         pipelineSettings.mSampleCount = pSwapChain->ppRenderTargets[0]->mSampleCount;
         pipelineSettings.mSampleQuality = pSwapChain->ppRenderTargets[0]->mSampleQuality;
+        pipelineSettings.mDepthStencilFormat = pDepthBuffer->mFormat;
         pipelineSettings.pRootSignature = pRootSignature;
         pipelineSettings.pVertexLayout = &vertexLayout;
         pipelineSettings.pRasterizerState = &rasterizerStateDesc;
