@@ -191,7 +191,7 @@ void Scene01Colors::Draw(Cmd *cmd, int imageIndex) {
     {
         UniformBlock uniform;
 
-        uniform.model = mat4::scale(vec3{0.2f}) * mat4::translation(f3Tov3(lightPos));
+        uniform.model = mat4::translation(f3Tov3(lightPos)) * mat4::scale(vec3{0.2f});
         uniform.projection = projMat;
         uniform.view = viewMat;
         uniform.lightColor = lightColor;
