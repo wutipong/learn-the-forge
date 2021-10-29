@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="2.Lighting">
+      <UniqueIdentifier>{fb52c9c2-a6dc-457e-aed1-9d513e01603f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MainApp.cpp">
@@ -21,8 +24,8 @@
     <ClCompile Include="AppInterface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Scene01Colors.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="2.Lighting\Scene01Colors.cpp">
+      <Filter>2.Lighting</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -39,8 +42,8 @@
     <ClInclude Include="AppInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Scene01Colors.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="2.Lighting\Scene01Colors.h">
+      <Filter>2.Lighting</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

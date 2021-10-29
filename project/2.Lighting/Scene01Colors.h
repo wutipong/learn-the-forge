@@ -4,6 +4,7 @@
 
 #include "MainApp.h"
 
+namespace Ch2Lighings {
 namespace Scene01Colors {
 Scene Create();
 
@@ -14,4 +15,5 @@ void Unload(Renderer *pRenderer);
 void DrawUI();
 void Init(Renderer *pRenderer);
 void Exit(Renderer *pRenderer);
-}; // namespace TestScene
+}; // namespace Scene01Colors
+} // namespace Ch2Lighings

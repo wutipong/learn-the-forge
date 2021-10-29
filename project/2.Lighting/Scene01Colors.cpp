@@ -8,6 +8,8 @@
 
 // Based on https://learnopengl.com/Lighting/Colors
 
+using namespace Ch2Lighings::Scene01Colors;
+
 namespace {
 #pragma pack(push, 1)
 struct UniformBlock {
@@ -41,9 +43,8 @@ float3 lightColor{1.0f, 1.0f, 1.0f};
 Buffer *pVerticesBuffer;
 } // namespace
 
-using namespace Scene01Colors;
 
-Scene Scene01Colors::Create() {
+Scene Ch2Lighings::Scene01Colors::Create() {
     Scene out;
 
     out.Draw = Draw;
@@ -78,20 +79,20 @@ static bool onCameraInput(InputActionContext *ctx, InputBindings::Binding bindin
     return true;
 };
 
-void Scene01Colors::Init(Renderer *pRenderer) {
+void Ch2Lighings::Scene01Colors::Init(Renderer *pRenderer) {
 
     {
         ShaderLoadDesc desc{};
-        desc.mStages[0] = {"1.colors.vert", nullptr, 0};
-        desc.mStages[1] = {"1.colors.frag", nullptr, 0};
+        desc.mStages[0] = {"2.1.colors.vert", nullptr, 0};
+        desc.mStages[1] = {"2.1.colors.frag", nullptr, 0};
 
         addShader(pRenderer, &desc, &lightingShader);
     }
 
     {
         ShaderLoadDesc desc{};
-        desc.mStages[0] = {"1.light_cube.vert", nullptr, 0};
-        desc.mStages[1] = {"1.light_cube.frag", nullptr, 0};
+        desc.mStages[0] = {"2.1.light_cube.vert", nullptr, 0};
+        desc.mStages[1] = {"2.1.light_cube.frag", nullptr, 0};
 
         addShader(pRenderer, &desc, &lightCubeShader);
     }
@@ -167,9 +168,9 @@ void Scene01Colors::Init(Renderer *pRenderer) {
     }
 }
 
-void Scene01Colors::Update(float deltaTime) { pCameraController->update(deltaTime); }
+void Ch2Lighings::Scene01Colors::Update(float deltaTime) { pCameraController->update(deltaTime); }
 
-void Scene01Colors::Draw(Cmd *cmd, int imageIndex) {
+void Ch2Lighings::Scene01Colors::Draw(Cmd *cmd, int imageIndex) {
     mat4 viewMat = pCameraController->getViewMatrix();
     const float aspectInverse = (float)AppInstance()->mSettings.mHeight / (float)AppInstance()->mSettings.mWidth;
     const float horizontal_fov = PI / 2.0f;
@@ -219,9 +220,9 @@ void Scene01Colors::Draw(Cmd *cmd, int imageIndex) {
     // cmdEndGpuTimestampQuery(cmd, gGpuProfileToken);
 }
 
-void Scene01Colors::DrawUI() {}
+void Ch2Lighings::Scene01Colors::DrawUI() {}
 
-bool Scene01Colors::Load(Renderer *pRenderer, SwapChain *pSwapChain, RenderTarget *pDepthBuffer) {
+bool Ch2Lighings::Scene01Colors::Load(Renderer *pRenderer, SwapChain *pSwapChain, RenderTarget *pDepthBuffer) {
     {
         BufferLoadDesc ubDesc = {};
         ubDesc.mDesc.mDescriptors = DESCRIPTOR_TYPE_UNIFORM_BUFFER;
@@ -323,7 +324,7 @@ bool Scene01Colors::Load(Renderer *pRenderer, SwapChain *pSwapChain, RenderTarge
     return true;
 }
 
-void Scene01Colors::Unload(Renderer *pRenderer) {
+void Ch2Lighings::Scene01Colors::Unload(Renderer *pRenderer) {
 
     for (auto &buffer : pCubeUniformBuffers) {
         removeResource(buffer);
@@ -337,7 +338,7 @@ void Scene01Colors::Unload(Renderer *pRenderer) {
     removePipeline(pRenderer, pLightPipeline);
 }
 
-void Scene01Colors::Exit(Renderer *pRenderer) {
+void Ch2Lighings::Scene01Colors::Exit(Renderer *pRenderer) {
     exitCameraController(pCameraController);
     removeRootSignature(pRenderer, pRootSignature);
 
