@@ -27,6 +27,9 @@
     <ClCompile Include="2.Lighting\Scene01Colors.cpp">
       <Filter>2.Lighting</Filter>
     </ClCompile>
+    <ClCompile Include="2.Lighting\Scene02BasicLighting.cpp">
+      <Filter>2.Lighting</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include=".clang-format" />
@@ -43,6 +46,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="2.Lighting\Scene01Colors.h">
+      <Filter>2.Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="2.Lighting\Scene02BasicLighting.h">
       <Filter>2.Lighting</Filter>
     </ClInclude>
   </ItemGroup>

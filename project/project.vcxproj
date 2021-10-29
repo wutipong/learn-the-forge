@@ -91,6 +91,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="2.Lighting\Scene01Colors.cpp" />
+    <ClCompile Include="2.Lighting\Scene02BasicLighting.cpp" />
     <ClCompile Include="AppInterface.cpp" />
     <ClCompile Include="MainApp.cpp" />
   </ItemGroup>
@@ -100,6 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="2.Lighting\Scene01Colors.h" />
+    <ClInclude Include="2.Lighting\Scene02BasicLighting.h" />
     <ClInclude Include="AppInterface.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="MainApp.h" />

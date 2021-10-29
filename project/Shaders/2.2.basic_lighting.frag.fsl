@@ -1,0 +1,35 @@
+CBUFFER(uniformBlock, UPDATE_FREQ_PER_FRAME, b0, binding = 0)
+{
+	DATA(float4x4, model, None);
+	DATA(float4x4, view, None);
+    DATA(float4x4, projection, None);
+    DATA(float3, objectColor, None);
+    DATA(float3, lightColor, None);
+	DATA(float3, lightPos, None);
+};
+
+STRUCT(PsIn)
+{
+	DATA(float4, position, SV_Position);
+	DATA(float3, normal, Normal);
+};
+
+float4 PS_MAIN( PsIn In )
+{
+	INIT_MAIN;
+	float4 Out;
+	
+	float ambientStrength = 0.1;
+	float3 ambient = ambientStrength * lightColor;
+	
+	float3 norm = normalize(In.normal);
+	float3 lightDir = normalize(lightPos - In.position.xyz);
+	
+	float diff = max(dot(norm, lightDir), 0.0);
+	float3 diffuse = diff * lightColor;
+	
+	float3 result = (ambient + diffuse) * objectColor;
+    Out = float4(result, 1.0);
+    
+	RETURN(Out);
+}
