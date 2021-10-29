@@ -15,6 +15,8 @@
 #include <array>
 #include <memory>
 
+extern RendererApi gSelectedRendererApi;
+
 namespace {
 IApp *pAppInstance;
 
@@ -94,6 +96,8 @@ auto Init(IApp *app) -> bool {
 
     // currentScene = NopScene::Create();
     currentScene = Ch2Lighings::Scene02BasicLighting::Create();
+
+    gSelectedRendererApi = RENDERER_API_D3D11;
 
     // FILE PATHS
     fsSetPathForResourceDir(pSystemFileIO, RM_CONTENT, RD_SHADER_SOURCES, "Shaders");
