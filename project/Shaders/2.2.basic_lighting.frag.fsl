@@ -12,6 +12,7 @@ STRUCT(PsIn)
 {
 	DATA(float4, position, SV_Position);
 	DATA(float3, normal, Normal);
+	DATA(float3, fragPositon, Position);
 };
 
 float4 PS_MAIN( PsIn In )
@@ -23,7 +24,7 @@ float4 PS_MAIN( PsIn In )
 	float3 ambient = ambientStrength * lightColor;
 	
 	float3 norm = normalize(In.normal);
-	float3 lightDir = normalize(lightPos - In.position.xyz);
+	float3 lightDir = normalize(lightPos - In.fragPositon);
 	
 	float diff = max(dot(norm, lightDir), 0.0);
 	float3 diffuse = diff * lightColor;

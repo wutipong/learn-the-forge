@@ -8,6 +8,7 @@ STRUCT(VsOut)
 {
 	DATA(float4, position, SV_Position);
 	DATA(float3, normal, Normal);
+	DATA(float3, fragPositon, Position);
 };
 
 CBUFFER(uniformBlock, UPDATE_FREQ_PER_FRAME, b0, binding = 0)
@@ -24,6 +25,7 @@ VsOut VS_MAIN( VsIn In )
 
 	Out.position = mul(projection, mul(view, mul(model, float4(In.aPos, 1.0))));
 	Out.normal = In.aNormal;
+	Out.fragPositon = mul(model, float4(In.aPos, 1.0)).xyz;
 
 	RETURN(Out);
 }
