@@ -34,8 +34,8 @@ float4 PS_MAIN( PsIn In )
 	float3 viewDir = normalize(viewPos - In.fragPositon);
 	float3 reflectDir = reflect(-lightDir, norm);
 
-	float spec = pow(max(dot(viewDir, reflectDir), 0.0), 256);
-	float3 specular = specularStrength * spec * lightColor;  
+	float spec = pow(max(dot(viewDir, reflectDir), 0.0), 32);
+	float3 specular = specularStrength * (spec * lightColor);  
 
 	float3 result = (ambient + diffuse + specular) * objectColor;
     Out = float4(result, 1.0);
