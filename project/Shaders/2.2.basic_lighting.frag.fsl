@@ -6,6 +6,7 @@ CBUFFER(uniformBlock, UPDATE_FREQ_PER_FRAME, b0, binding = 0)
     DATA(float3, objectColor, None);
     DATA(float3, lightColor, None);
 	DATA(float3, lightPos, None);
+	DATA(float3, viewPos, None);
 };
 
 STRUCT(PsIn)
@@ -28,8 +29,15 @@ float4 PS_MAIN( PsIn In )
 	
 	float diff = max(dot(norm, lightDir), 0.0);
 	float3 diffuse = diff * lightColor;
-	
-	float3 result = (ambient + diffuse) * objectColor;
+
+	float specularStrength = 0.5;
+	float3 viewDir = normalize(viewPos - In.fragPositon);
+	float3 reflectDir = reflect(-lightDir, norm);
+
+	float spec = pow(max(dot(viewDir, reflectDir), 0.0), 256);
+	float3 specular = specularStrength * spec * lightColor;  
+
+	float3 result = (ambient + diffuse + specular) * objectColor;
     Out = float4(result, 1.0);
     
 	RETURN(Out);

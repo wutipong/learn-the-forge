@@ -20,7 +20,9 @@ struct UniformBlock {
 
     alignas(16) float3 objectColor;
     alignas(16) float3 lightColor;
+
     alignas(16) float3 lightPos;
+    alignas(16) float3 viewPos;
 };
 
 Shader *lightingShader = nullptr;
@@ -186,12 +188,14 @@ void Ch2Lighings::Scene02BasicLighting::Draw(Cmd *cmd, int imageIndex) {
         uniform.lightColor = lightColor;
         uniform.objectColor = objectColor;
         uniform.lightPos = lightPos;
+        uniform.viewPos = v3ToF3(pCameraController->getViewPosition());
 
         BufferUpdateDesc cubeUniformUpdate = {pCubeUniformBuffers[imageIndex]};
         beginUpdateResource(&cubeUniformUpdate);
         *(UniformBlock *)cubeUniformUpdate.pMappedData = uniform;
         endUpdateResource(&cubeUniformUpdate, NULL);
     }
+
     {
         UniformBlock uniform;
 
